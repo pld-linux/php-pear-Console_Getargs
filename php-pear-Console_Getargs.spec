@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Console
 %define		_subclass	Getargs
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a command-line arguments parser
 Summary(pl):	%{_pearname} - przetwarzanie argumentów linii poleceñ
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	1.1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3ee70869037a50bdde6e8814b1455961
+# Source0-md5:	e2e90a88109dbd3780502dc5ae3dc224
 URL:		http://pear.php.net/package/Console_Getargs/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
