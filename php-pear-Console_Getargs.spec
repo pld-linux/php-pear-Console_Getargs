@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Console
-%define         _subclass       Getargs
+%define		_class		Console
+%define		_subclass	Getargs
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - A command-line arguments parser
-Summary(pl):	%{_pearname} - Przetwarzanie argumentów linii poleceñ
+Summary:	%{_pearname} - a command-line arguments parser
+Summary(pl):	%{_pearname} - przetwarzanie argumentów linii poleceñ
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
