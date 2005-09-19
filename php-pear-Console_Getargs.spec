@@ -1,5 +1,4 @@
 %include	/usr/lib/rpm/macros.php
-%include	/usr/lib/rpm/macros.pear
 %define		_class		Console
 %define		_subclass	Getargs
 %define		_status		stable
@@ -15,7 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a1605326148bc92a9dc7181b7a0fc0fb
 URL:		http://pear.php.net/package/Console_Getargs/
-BuildRequires:	php-pear-build
+BuildRequires:	rpm-php-pearprov >= 4.4.2-10.2
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
