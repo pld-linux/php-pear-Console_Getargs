@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a1605326148bc92a9dc7181b7a0fc0fb
 URL:		http://pear.php.net/package/Console_Getargs/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 3:4.1.0
 Requires:	php-pear
