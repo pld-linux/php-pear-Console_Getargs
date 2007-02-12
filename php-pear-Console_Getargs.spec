@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a command-line arguments parser
-Summary(pl):	%{_pearname} - przetwarzanie argumentów linii poleceñ
+Summary(pl.UTF-8):   %{_pearname} - przetwarzanie argumentÃ³w linii poleceÅ„
 Name:		php-pear-%{_pearname}
 Version:	1.3.4
 Release:	1
@@ -32,19 +32,19 @@ configuration it is given.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet Console_Getargs ma zaimplementowan± obs³ugê parsowania
-argumentów linii poleceñ, któr± mo¿na u¿yæ w aplikacjach do
-przetworzenia argumentów znalezionych w $_SERVER['argv']. Wykonuje
-podstawowe sprawdzanie poprawno¶ci argumentów i jest w stanie zwróciæ
-u¿ytkownikowi sformatowany tekst pomocy na podstawie podanej
+%description -l pl.UTF-8
+Pakiet Console_Getargs ma zaimplementowanÄ… obsÅ‚ugÄ™ parsowania
+argumentÃ³w linii poleceÅ„, ktÃ³rÄ… moÅ¼na uÅ¼yÄ‡ w aplikacjach do
+przetworzenia argumentÃ³w znalezionych w $_SERVER['argv']. Wykonuje
+podstawowe sprawdzanie poprawnoÅ›ci argumentÃ³w i jest w stanie zwrÃ³ciÄ‡
+uÅ¼ytkownikowi sformatowany tekst pomocy na podstawie podanej
 konfiguracji.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -53,7 +53,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
