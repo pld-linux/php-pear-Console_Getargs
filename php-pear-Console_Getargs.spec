@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a command-line arguments parser
-Summary(pl.UTF-8):   %{_pearname} - przetwarzanie argumentów linii poleceń
+Summary(pl.UTF-8):	%{_pearname} - przetwarzanie argumentów linii poleceń
 Name:		php-pear-%{_pearname}
 Version:	1.3.4
 Release:	1
@@ -44,7 +44,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
