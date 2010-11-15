@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - a command-line arguments parser
 Summary(pl.UTF-8):	%{_pearname} - przetwarzanie argumentów linii poleceń
 Name:		php-pear-%{_pearname}
-Version:	1.3.4
-Release:	3
+Version:	1.3.5
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	30c90b46e41e023b7008c5f6306335aa
+# Source0-md5:	a727bc63cc5fe4e28ccb37401cdc1525
 Patch0:		deprecation.patch
 URL:		http://pear.php.net/package/Console_Getargs/
 BuildRequires:	php-pear-PEAR

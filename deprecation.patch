@@ -1,11 +1,11 @@
---- Console_Getargs-1.3.4/usr/share/pear/Console/Getargs.php~	2008-01-31 15:03:37.000000000 +0200
-+++ Console_Getargs-1.3.4/usr/share/pear/Console/Getargs.php	2010-08-23 23:54:45.664365426 +0300
-@@ -212,7 +212,7 @@
-     function &factory($config = array(), $arguments = NULL)
+--- Console_Getargs-1.3.5/usr/share/pear/Console/Getargs.php~	2010-11-15 16:53:57.000000000 +0200
++++ Console_Getargs-1.3.5/usr/share/pear/Console/Getargs.php	2010-11-15 16:54:34.292318997 +0200
+@@ -224,7 +224,7 @@
+     function &factory($config = array(), $arguments = null)
      {
          // Create the options object.
--        $obj =& new Console_Getargs_Options();
+-        $obj = & new Console_Getargs_Options();
 +        $obj = new Console_Getargs_Options();
-         
+ 
          // Try to set up the arguments.
          $err = $obj->init($config, $arguments);
