@@ -10,7 +10,6 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f99266907369af0191ea32f25dc6317e
-Patch0:		deprecation.patch
 URL:		http://pear.php.net/package/Console_Getargs/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
