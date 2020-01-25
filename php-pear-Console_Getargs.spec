@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Console_Getargs
 Summary:	%{_pearname} - a command-line arguments parser
